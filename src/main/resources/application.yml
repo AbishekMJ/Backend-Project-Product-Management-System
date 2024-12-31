@@ -1,0 +1,12 @@
+server:
+      port: 8087
+spring:
+  datasource:
+    username: root
+    password: Abhi1569*
+    url: jdbc:mysql://localhost:3306/abishekmj
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true  
